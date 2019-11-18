@@ -20,6 +20,16 @@ def UpdateString(string, replacement, index):
     for i in list_string:
         final_string += i
     print("OUTPUT", final_string)
+
+def FindWordCount(given_list, string):
+    counter = 0
+    for word in given_list:
+        if word == string:
+            counter += 1
+    return counter
+
+
+            
     
     
 
