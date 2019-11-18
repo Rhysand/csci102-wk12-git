@@ -1,7 +1,7 @@
 # https://github.com/Rhysand/csci102-wk12-git
 # John Henke
 # CSCI 102 - Section A
-# Week 12 - Utility
+# Week 12 - Utility. Part B Code Stuff
 
 
 def PrintOutput(string):
