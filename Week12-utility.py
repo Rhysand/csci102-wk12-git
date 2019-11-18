@@ -49,6 +49,13 @@ def Union(list1, list2):
         if element not in list1:
             list_total.append(element)
     return list_total
+
+def Intersection(list1, list2):
+    list_total = []
+    for element in list1:
+        if element in list2:
+            list_total.append(element)
+    return list_total
             
             
             
