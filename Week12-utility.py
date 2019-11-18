@@ -11,7 +11,19 @@ def LoadFile(string):
         for line in file:
             line_temp = line
             list_of_lines.append(line_temp)
-    return PrintOutput(list_of_lines)
+    return list_of_lines
+
+def UpdateString(string, replacement, index):
+    list_string = [i for i in string]
+    list_string[index] = replacement
+    final_string = ''
+    for i in list_string:
+        final_string += i
+    print("OUTPUT", final_string)
+    
+    
+
+
         
 
 
