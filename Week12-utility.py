@@ -28,6 +28,19 @@ def FindWordCount(given_list, string):
             counter += 1
     return counter
 
+def ScoreFinder(players, scores, string):
+    lower = string.lower()
+    lowered_players = []
+    for i in players:
+        lowered = i.lower()
+        lowered_players.append(lowered)
+    if lower not in lowered_players:
+        print("OUTPUT player not found")
+    for j, player in enumerate(lowered_players):
+        if lower == player:
+            print("OUTPUT", players[j], "got a score of", scores[j])
+            
+        
 
             
     
